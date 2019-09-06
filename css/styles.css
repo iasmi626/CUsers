@@ -1,7 +1,20 @@
 body { 
   padding-top: 5rem;
-  background-color: #ffc10759;
+  background-color: #e8d08630;
   
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.logo img{
+  width: 100%;
+  max-width: 62px;
+  padding-right: 1em; 
+}
+h1 { 
+  margin: 0;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -27,4 +40,12 @@ footer {
   padding-top: 100px;
   background: #a21624d9;
   margin-top: 7em;
+}
+
+#mynav{
+  background: #a21624d9;
+  margin: 0 0 30px;
+}
+#mynav .text-muted {
+  color: white !important;
 }
