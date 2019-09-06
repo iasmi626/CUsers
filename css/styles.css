@@ -1,5 +1,7 @@
-body {
+body { 
   padding-top: 5rem;
+  background-color: #ffc10759;
+  
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -7,4 +9,20 @@ body {
 }
 .gallery img {
               width: 300px
+}
+.carousel-item img {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.boxes {
+  text-align: center;
+}
+
+.boxes .desc {
+  height: 80px;
+}
+
+footer {
+  padding-top: 50px;
 }
